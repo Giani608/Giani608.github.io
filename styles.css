@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    text-align: center; /* Zentriert Text im Body */
 }
 
 header {
@@ -38,10 +39,16 @@ nav ul li a:hover {
 
 main {
     padding: 2rem;
+    text-align: center; /* Zentriert Text und Elemente im Hauptbereich */
 }
 
 main h2 {
     color: #004080;
+}
+
+main p, main ul, main iframe, main a {
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    display: block;
 }
 
 footer {
