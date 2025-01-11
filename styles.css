@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-
+text-align: center; /* Zentriert Text im Body */
    
 }
 
@@ -60,6 +60,7 @@ nav ul li a:hover {
 
 main {
     padding: 2rem;
+    text-align: center; /* Zentriert Text und Elemente im Hauptbereich */
 }
 
 main h2 {
