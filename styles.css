@@ -39,6 +39,25 @@ nav ul li a:hover {
     background: #575757;
 }
 
+.button {
+    display: inline-block;
+    background-color: #004080; /* Farbe des Buttons */
+    color: white; /* Textfarbe */
+    padding: 10px 20px; /* Innenabstand */
+    text-align: center;
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 16px; /* Schriftgröße */
+    transition: background-color 0.3s; /* Weicher Übergang bei Hover */
+}
+
+.button:hover {
+    background-color: #003060; /* Farbe beim Überfahren des Buttons */
+    color: #ffffff; /* Textfarbe bleibt gleich */
+}
+
+
+
 main {
     padding: 2rem;
 }
