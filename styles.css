@@ -1,9 +1,12 @@
 body {
+     height: 100%; /* Ermöglicht, dass die Seite die gesamte Höhe des Fensters einnimmt */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     text-align: center; /* Zentriert Text im Body */
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -40,6 +43,7 @@ nav ul li a:hover {
 main {
     padding: 2rem;
     text-align: center; /* Zentriert Text und Elemente im Hauptbereich */
+     flex: 1; /* Sorgt dafür, dass der Hauptinhalt den Platz einnimmt */
 }
 
 main h2 {
@@ -52,9 +56,12 @@ main p, main ul, main iframe, main a {
 }
 
 footer {
-    text-align: center;
+   text-align: center;
     background: #333;
     color: white;
     padding: 1rem 0;
-    margin-top: 2rem;
+    margin-top: 0;
+    position: relative; /* Verhindert Überlagerung */
+    bottom: 0;
+    width: 100%;
 }
